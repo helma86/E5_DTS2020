@@ -1,10 +1,139 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8">
-    <title>Progate</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Project team E5</title>
+    <link rel="stylesheet" href="assets/responsive.css" />
+    <link rel="stylesheet" href="assets/stylesheet.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <script src="kode.js"></script>
   </head>
   <body>
-    <h1 class="title">How to Make a Website with HTML & CSS on your Computer</h1>
+    <header>
+      <div class="container">
+        <div class="header-right">
+          <img class="logo" src="assets/image/logojadi.png" />
+          <div class="dropdown">
+            <div id="myDropdown" class="dropdown-content">
+              <a href="#">LOGIN</a>
+              <a href="#">TENTANG</a>
+              <a href="#timkami">TIM KAMI</a>
+            </div>
+          </div>
+        </div>
+    
+        <button href="javascript:void(0);" onclick="myFunction()" class="fa fa-bars menu-icon"></button>
+    
+        <div class="header-left">
+          <a href="#" class="login">LOGIN</a>
+          <a href="#">TENTANG</a>
+          <a href="#timkami">TIM KAMI</a>
+        </div>
+      </div>
+    </header>
+
+    <div class="main">
+      <div class="top-wrapper">
+        <div class="container">
+          <h1><mark>WELCOME TO PROJECT E5.</mark></h1>
+          <h1>
+            <mark
+              >disini kita akan mempresentasikan hasil dari apa yg sudah
+              dipelajari selama ini.</mark
+            >
+          </h1>
+          <p>
+            dengan hadirnya web ini membuktikan bahwa kemampuan kita sudah dapat
+            diakui oleh dunia
+          </p>
+        </div>
+      </div>
+      <div class="contents-hendi">
+        <h2>
+          Targetkan 60 Ribu Peserta, Kominfo Gandeng 88 Perguruan Tinggi
+          Indonesia Jadi Mitra DTS 2020
+        </h2>
+        <img src="assets/image/dts.jpeg" alt="Dts" class="img">
+        <div class="contents-item-hendi">
+          <p>
+            Menteri Kominfo Johnny G. Plate saat memberikan sambutan dalam acara
+            Penandatanganan Memorandum of Understanding (MoU) dan Perjanjian
+            Kerja Sama (PKS) Fresh Graduate Academy (FGA) dan Vocational School
+            Graduate Academy (VSGA) Digital Talent Scholarship (DTS) Tahun 2020
+            di Jakarta, Selasa (17/12/2019). - (Jamal)
+          </p>
+        </div>
+      </div>
+      <div class="content">
+        <h3 class="section-title" id="timkami">Team Kami</h3>
+        <div class="contents-item">
+          <p>Hendi Adrianto</p>
+          <img src="assets/image/luffy.png" alt="Hendi" class="img-tim">
+        </div>
+        <div class="contents-item">
+          <p>Khoirul Huda</p>
+          <img src="assets/image/kuroko.png" alt="Khoirul" class="img-tim"/>
+        </div>
+        <div class="contents-item">
+          <p>Helma</p>
+          <img src="assets/image/megumin.png" alt="Helma" class="img-tim"/>
+        </div>
+        <div class="contents-item">
+          <p>Imam Mustofa</p>
+          <img src="assets/image/shiba.png" alt="Imam" class="img-tim"/>
+        </div>
+        <div class="contents-item">
+          <p>Irsyad Nur Hakim</p>
+          <img src="assets/image/kirito.png" alt="Irsyad" class="img-tim"/>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <div class="page-footer">
+        <div class="footer-wrapper">
+          <div class="footer-top">
+            <img src="assets/image/logo_footer.png">
+            <p>Kelompok E5 adalah kelompok untuk tugas mandiri tentang pembuatan halaman website html dan css</p>
+          </div>
+    
+          <div class="footer-middle">
+            <h2>Links</h2>
+            <ul>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="#about">About</a></li>
+              <li><a href="">Contact Us</a></li>
+              <li><a href="">Social Link</a></li>
+            </ul>
+            <div class="btn-wrapper">
+              <a href="https://www.facebook.com/" class="btn facebook"><span class="fa fa-facebook"></span></a>
+              <a href="https://www.twitter.com/" class="btn twitter"><span class="fa fa-twitter"></span></a>
+              <a href="https://www.instagram.com/" class="btn instagram"><span class="fa fa-instagram"></span></a>
+              <a href="group_e5" class="btn whatsapp"><span class="fa fa-whatsapp"></span></a>
+            </div>
+    
+          </div>
+    
+          <div class="footer-bottom">
+            <h2>Contact Us</h2>
+            <div class="contact-form">
+              <form id="contact-form" method="post" action="">
+                <input name="nama" type="text" class="form-control" placeholder="Your Name" required><br>
+                <input name="email" type="email" class="form-control" placeholder="Your Email" required><br>
+                <textarea name="message" class="form-control" placeholder="Message" required></textarea><br>
+                <input type="text" class="form-control submit" value="SEND MESSAGE"><br>
+              </form>
+            </div>
+          </div>
+        </div>
+        <div class="footer-inside-ground">
+          <p>&copy 2020 | design by group E5 </p>
+        </div>
+      </div>
+    
+      <!--<div class="footer-ground">-->
+    
+      </div>
+    </footer>
   </body>
 </html>
